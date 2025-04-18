@@ -1,2 +1,6 @@
-# bioSite
-bioSite project for CSD 340 - HTML &amp; CSS development project featuring a personal biography site.
+# CSD 340 - Web Development with HTML and CSS
+
+## Contributors
+
+- Darren Osier
+- Julio Pochet Edmead
