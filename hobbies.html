@@ -1,44 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yismerlin's Hobbies</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
     <h1>Yismerlin’s Hobbies</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="hobbies.html" aria-current="page">Hobbies</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="hobbies.html">Hobbies</a>
-  </nav>
+  <main>
+    <div class="grid">
+      <figure class="card">
+        <img src="images/beach.jpeg" alt="At the beach" />
+        <figcaption>Relaxing at the beach to clear her mind and enjoy nature.</figcaption>
+      </figure>
 
-  <main class="grid">
-    <div class="card">
-      <img src="images/beach-placeholder.jpg" alt="At the Beach">
-      <h3>Beach Time</h3>
-      <p>She loves visiting the beach to relax and disconnect from the everyday hustle.</p>
-    </div>
+      <figure class="card">
+        <img src="images/reading.jpeg" alt="Poetry reading" />
+        <figcaption>Her love for poetry brings her peace and creativity.</figcaption>
+      </figure>
 
-    <div class="card">
-      <img src="images/book-placeholder.jpg" alt="Reading Poetry">
-      <h3>Reading Poetry</h3>
-      <p>She enjoys reading poetic works, especially Dominican authors like Sabrina Román.</p>
-    </div>
+      <figure class="card">
+        <img src="images/movies.jpeg" alt="Movie night" />
+        <figcaption>She enjoys cozy movie nights, especially horror films.</figcaption>
+      </figure>
 
-    <div class="card">
-      <img src="images/movie-placeholder.jpg" alt="Watching Horror Films">
-      <h3>Movie Nights</h3>
-      <p>Her favorite movie nights include cozy horror films from the comfort of home.</p>
+      <figure class="card">
+        <img src="images/beach2.jpeg" alt="At the beach in yellow dress" />
+        <figcaption>Another moment of peace, enjoying time by the ocean.</figcaption>
+      </figure>
     </div>
   </main>
 
   <footer>
-    <p>© 2025 Julio Pochet Edmead</p>
+    <p>&copy; 2025 Julio Pochet Edmead | All rights reserved</p>
   </footer>
 </body>
 </html>

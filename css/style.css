@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5e9d4;
+  color: #8b6f47;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #f8b6a0;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation */
+nav {
+  background-color: #a2d5d0;
+  border-bottom: 15px solid #e5e5e5;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+  background-color: #e5e5e5;
+  color: #8b6f47;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/* Grid Layout for Cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  justify-items: center;
+}
+
+/* Card Styles */
+.card {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 320px;
+  padding: 10px;
+  transition: box-shadow 0.3s;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.03);
+}
+
+/* Figure captions */
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 0.95rem;
+  color: #8b6f47;
+  margin-top: 8px;
+}
+
+/* About Page Layout */
+.about-section {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.about-section img.portrait {
+  display: block;
+  margin: 0 auto 16px;
+  max-width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  border: 4px solid white;
+}
+
+.about-section .caption {
+  font-style: italic;
+  margin-bottom: 30px;
+  color: #8b6f47;
+}
+
+.about-section p {
+  margin-bottom: 20px;
+}
+
+.about-section blockquote {
+  font-style: italic;
+  border-left: 4px solid #a2d5d0;
+  padding-left: 15px;
+  margin-top: 30px;
+  color: #8b6f47;
+}
+
+/* LinkedIn */
+
+.linkedin-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.linkedin-button a {
+  background-color: #0077b5;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.linkedin-button a:hover {
+  background-color: #005f8d;
+}
+
+/* Footer */
+footer {
+  background-color: #f8b6a0;
+  color: white;
+  text-align: right;
+  padding: 10px;
+  font-style: italic;
+  margin-top: 40px;
+}
